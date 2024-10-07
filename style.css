@@ -1,0 +1,141 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body *{
+    border-radius: 5px;
+}
+
+nav{
+    background-color: aquamarine;
+    height: 8%;
+}
+nav h1{
+    font-size: 3rem;
+    margin-left: 8%;
+}
+
+main{
+    background-color: aqua;
+    height: 85%;
+    margin: 1px;
+    padding: 1% 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main section:first-of-type{
+    background-color: rebeccapurple;
+    width: 24%;
+    height: 100%;
+    padding: 10px;
+}
+
+main section:nth-of-type(2){
+    background-color: brown;
+    width: 74%;
+    height: 100%;
+    padding: 5px;
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+    align-content: space-between;
+}
+
+textarea{
+    padding: 10px;
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+textarea::placeholder{
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5%;
+}
+
+section div textarea:first-of-type{
+    background-color:chartreuse;
+    font-size: x-large;
+    width: 90%;
+}
+
+section div button{
+    width: 9%;
+    height: 100%;
+    background-color: chocolate;
+    outline: none;
+    border: none;
+}
+
+.left-list-item{
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.left-list-item:hover{
+    background-color:darkgreen;
+    color: cornsilk;
+    cursor: pointer;
+}
+
+#left{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+}
+
+.del-button{
+    background-color: darkgoldenrod;
+    width: 20%;
+}
+
+.hid-description{
+    display: none;
+}
+
+
+
+button:hover{
+    background-color: coral;
+    font-weight: bold;
+}
+
+section textarea:nth-of-type(1){
+    background-color: crimson;
+}
+
+textarea:nth-of-type(2)::-webkit-scrollbar{
+    display: none;
+}
+
+footer{
+    background-color: bisque;
+    align-self: flex-end;
+    height: 4%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-right: 2%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
